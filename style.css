@@ -18,6 +18,7 @@ body
 {
 	margin:0;
 	padding:0;
+	/*background:black;*/
 }
 
 .board
@@ -44,6 +45,7 @@ body
 	position:relative;
 	cursor:pointer;
 	background:var(--cell-color);
+	transition: 0.3s all ease;
 }
 
 .cell:first-child,
